@@ -1,0 +1,59 @@
+body{
+    background-color: ;
+}
+
+.nav ui{
+    position: absolute;
+    top: 0; left: 0; right: 0; 
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    list-style: none;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.nav a{
+    padding:20px;
+    font-size: 20px; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color:red;
+}
+
+main{
+    text-align: center;
+}
+
+.info{
+    padding: 15px;
+}
+
+.name{
+    margin: 50px 0px;
+}
+.lys{
+    position: relative;
+    top: 30px;
+}
+
+.banner{
+    margin-top: 4%;
+    font-size: 50px;    
+}
+
+.banner a{
+    padding:15px;
+    text-decoration: none;
+    position: relative;
+    bottom: 45px;    
+}
+
+
+.favorite{
+    position: relative;
+    top: 30px;
+}
+
