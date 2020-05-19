@@ -48,7 +48,7 @@ main{
 
 .banner{
     position: absolute;
-    right: 65px;
+    right: 63px;
     top: 350px;
     margin-top: 4%;
     font-size: 50px;  
@@ -62,14 +62,14 @@ main{
 
 .skill{
     position: relative;
-    left:350px;
+    left:400px;
     font-size: 25px;
 }
 
 .position{
     position: relative;
     bottom: 600px;
-    left:350px;
+    left:400px;
     font-size: 25px;
 }
 
