@@ -49,10 +49,11 @@ main{
 
 .banner{
     position: relative;
-    right: 310px;
+    right: 340px;
     top: 140px;
     margin-top: 4%;
-    font-size: 50px;     
+    font-size: 50px;  
+    z-index: 99;
 }
 
 .banner a{
