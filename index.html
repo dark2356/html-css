@@ -6,52 +6,51 @@
   <link href="./style.css" type="text/css" rel="stylesheet">
 ` </head>
    <body>
-    <nav class="nav">
-      <ui>
-        <li>
-          <a href="index.html">Profile</a>
-        </li>
-        <li>
-          <a href="todo.html">Todo</a>
-        </li>
-        <li>
+    <haeder class="nav">
+        <div class="list">
           <a href="game.html">Game</a>
-        </li>
-        </ui>
-    </nav>
+          <a href="todo.html">Todo</a>
+          <a href="favorite.html">Favorite</a>
+          <a href="index.html">Profile</a>
+        </div>
+    </haeder>
       <main>
         <section>
-          <div class="info">
-            <img src="./images/이윤식.jpg" class="lys">
-            <h2 class="name">이윤식</h2>
-            <p> 아직은 많이 부족하지만 개발자가 되지위해서 열심히 공부중입니다!</p>
-          </div>
+          <table class="info">
+            <tr>
+              <td><img src="./images/이윤식.jpg" class="lys"></td>
+              <td class="info2">
+                <p class="name">이윤식</p>
+                 <p class="text">개발자가 되기위해 
+                 <br>열심히 공부중입니다!</p>
+                </td>
+                <td>
+               <div class="banner">
+                 <a href="https://github.com/dark2356" target="_blank">
+                 <i class="fab fa-github"></i>
+                 </a>
+                 <a href="mailto:dark235612@gmail.com" target="_blank" >
+                 <i class="far fa-envelope"></i>
+                 </a>
+                 <a href="https://velog.io/@dark2356" target="_blank">
+                 <i class="fas fa-blog"></i>
+                 </a>  
+               </div>
+              </td>  
+          </table>
         </section>
-        <section>
-          <div class="banner">
-            <a href="https://github.com/dark2356" target="_blank">
-            <i class="fab fa-github"></i>
-            </a>
-            <a href="mailto:dark235612@gmail.com" target="_blank" >
-            <i class="far fa-envelope"></i>
-            </a>
-            <a href="https://velog.io/@dark2356" target="_blank">
-            <i class="fas fa-blog"></i>
-           </a>  
-          </div>
-        </section>
-        <section>
-          <h2 class="skill grid">SKILL</h2>
+       <section>
+          <div class="skill">
+          <h2>SKILL<h2>
           <img src="./images/html.png">
           <img src="./images/css.png">
-        </section>
-        <section>
-          <div class="favorite">
-            <h2>Favorite Things</h2>
-            <img src="./images/축구.jpeg"><p>축구</p>
-            <img src="./images/게임.png"><p>게임</p>
           </div>
-        </section>
+          <div class="position">
+          <h2>POSITION</h2>
+          <img src="./images/1.png">
+          <p>Frontend</p>
+          </div>
+       </section>
       </main>
 
   </body>

@@ -1,0 +1,50 @@
+
+
+.nav{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    box-shadow: 0px 0px 3px gray;  
+    overflow: hidden; 
+    z-index: 99;
+    background-color: white;
+}
+
+.nav a{
+    float: right;
+    padding:30px;
+    color: black;
+    font-size: 20px; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color:gray;
+}
+
+section{
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+.img {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.soccer {
+    width: 800px;
+    height: 500px;
+}
+
+.game{
+    width: 800px;
+    height: 500px;
+}
+
+.coading{
+    width: 800px;
+    height: 500px;
+}
