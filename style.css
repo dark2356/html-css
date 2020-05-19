@@ -1,5 +1,4 @@
 
-
 .nav{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -48,9 +47,9 @@ main{
 }
 
 .banner{
-    position: relative;
-    right: 340px;
-    top: 140px;
+    position: absolute;
+    right: 65px;
+    top: 350px;
     margin-top: 4%;
     font-size: 50px;  
     z-index: 99;
